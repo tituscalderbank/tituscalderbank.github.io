@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+
+body {
+  color: white;
+  background-image: url("images/bghead20.png"), url("images/bgstars.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 10px black;
+}
+
+.headerscroll {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+  opacity: 0.88;
+}
+#header {
+  background-color: black;
+  height: 70px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+#header a:hover {
+  color: lightgray;
+}
+#header-title {
+  margin-top: 14px;
+  display: block;
+  float: left;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  padding: 0 10px;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 23px;
+  font-family: 'Amatic SC', cursive;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.headcontainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+#music {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+#video {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: 10px;
+}
+#music-links {
+  margin: 40px 0;
+}
+#music-links a {
+  text-decoration: none;
+  color: white;
+}
+#music-links li {
+  max-width: 800px;
+  font-size: 16px;
+  display: inline;
+  border: 2px solid;
+  padding: 6px 6px;
+  background-color: black;
+  opacity: 0.8;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#music-links li:hover {
+  background-color: dimgray;
+  opacity: 0.6;
+}
+
+.tourdates {
+  table-layout: auto;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.tourdates td {
+  height: 40px;
+  vertical-align: middle;
+}
+.tourdates a {
+  text-decoration: none;
+  color: silver;
+}
+
+#contact {
+  background-color: black;
+  opacity: 0.7;
+}
+#contact a {color: white;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+}
+#contact a:hover {
+  color: lightgray;
+  opacity: 0.7;
+}
+.contactcontainer {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.sociallinks {
+  padding-top: 20px;
+}
+.fa {
+padding-left: 5px;
+padding-right: 5px;
+}
+.website {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+
+
+@font-face {
+    font-family: 'true_liesregular';
+    src: url('true_lies-webfont.woff2') format('woff2'),
+         url('true_lies-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.medianote {
+  font-family: 'true_liesregular', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 5px;
+  opacity: 0.5;
+}
+.medianote a {
+  text-decoration: none;
+  color: white;
+}
+.medianote a:hover {
+  color: red;
+  text-shadow: 3px 3px 5px red;
+}
