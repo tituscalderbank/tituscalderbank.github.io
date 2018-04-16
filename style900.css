@@ -112,11 +112,16 @@ body {
 }
 .tourdates td {
   height: 40px;
-  vertical-align: middle;
+  vertical-align: top;
 }
 .tourdates a {
   text-decoration: none;
   color: silver;
+}
+.tcity {
+  font-size: 16px;
+  color: darkgray;
+  margin-top: 0;
 }
 
 #contact {
